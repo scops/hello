@@ -1,0 +1,11 @@
+applications:
+- services:
+  - CAP:DataCache
+  host: hellocap
+  disk: 1024M
+  name: hellocap
+  command: node server.js
+  path: .
+  domain: ng.bluemix.net
+  mem: 512M
+  instances: 1
